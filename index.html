@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Combat</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="main">
+    </div>
+    <div id="start">
+        <h1>タイピングゲーム</h1>
+        <h2>キャラクターを選んでください。</h2>
+        <div id="player-selector">
+        </div>
+        <div id="player-description"></div>
+        <button id="start-button">スタート</button>
+    </div>
+    <div id="result"></div>
+    <div id="game" style="display:none">
+        <div id="fight">
+            <img id="player"/>
+            <img id="enemy" src="enemy_goblin.png"/>
+            <img id="effect" style="display: none;"/>
+            <img id="enemy-effect" style="display: none;" src="effect_goblin.png"/>
+        </div>
+        <div id="hp">
+            <p id="player-hp">100</p>
+            <p id="enemy-hp">100</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

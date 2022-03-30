@@ -1,0 +1,95 @@
+body{
+    text-align:center;
+    padding: 50px;
+
+    font-family:cursive;
+}
+
+#main{
+    font-size:72px;
+    letter-spacing: .1em;
+}
+
+#result{
+    font-size: 36px;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+#player{
+    transform: rotateY(180deg);
+}
+
+.player-select-radio{
+    display: none;
+}
+
+.player-select-label{
+    display: inline-block;
+    transition: .2s;
+    border: 2px solid #808080;
+    border-radius: 4px;
+    height: 100px;
+    width: auto;
+    margin: 5px 10px;
+}
+
+.player-select-radio:checked+.player-select-label{
+    border: 4px solid #ff8000;
+}
+
+.player-select-img{
+    height: 100px;
+    width: auto;
+}
+
+button{
+    border:1px solid #808080;
+    border-radius: 2px;
+    padding: 6px 10px;
+    background-color: aliceblue;
+    transition: .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:black;
+    color: aliceblue;
+
+}
+
+#player{
+    float: left;
+}
+
+#enemy{
+    float: right;
+}
+
+#game{
+    margin-top: 30px;
+}
+
+#effect{
+    position: absolute;
+    left:0%;
+    height: 150px;
+}
+
+#player-hp{
+    float: left;
+}
+
+#enemy-hp{
+    float:right;
+}
+
+#enemy-effect{
+    position: absolute;
+    right:0%;
+    height: 50px;
+    transform: rotateY(180deg);
+}
